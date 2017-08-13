@@ -45,7 +45,7 @@ button.onclick = function (){
         };
         
 // make the request
-        request.open('GET','http://rojasreev.imad.hasura-app.io/', true);
+        request.open('GET','http://rojasreev.imad.hasura-app.io/counter', true);
         request.send(null);     
 /*
 // render the variable in the coorect span
