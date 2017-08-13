@@ -5,6 +5,11 @@ element.innerHTML = "New Value inserted from JS";
 
 //make the image move on click
 var img = document.getElementById('madi');
+function moveRight(){
+        marginLeft = marginLeft + 10;
+        img.style.marginLeft = '50';
+};
+}
 img.onclick = function() {
     var interval = sertInterval(moveRight, 50);
     //img.style.marginLeft ='500px';
