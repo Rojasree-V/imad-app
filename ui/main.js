@@ -7,9 +7,9 @@ element.innerHTML = "New Value inserted from JS";
 var img = document.getElementById('madi');
 function moveRight(){
         marginLeft = marginLeft + 10;
-        img.style.marginLeft = '500px';
-};
+        img.style.marginLeft = marginLeft + 'px';
 }
+
 img.onclick = function() {
     var interval = sertInterval(moveRight, 50);
     //img.style.marginLeft ='500px';
