@@ -6,7 +6,7 @@ element.innerHTML = "New Value inserted from JS";
 //make the image move on click
 var img = document.getElementById('madi');
 img.onclick = function() {
-    var interval = sertInterval(moveLeft, 50);
-    img.style.marginLeft ='500px';
+    var interval = sertInterval(moveRight, 50);
+    //img.style.marginLeft ='500px';
     
 };
