@@ -59,8 +59,8 @@ span.innerHTML = counter.toString();
 
 
 //Submit Name
-var nameInput = document.getElementById('name');
-var name = nameInput.value;
+/* var nameInput = document.getElementById('name');
+var name = nameInput.value;   */
 var submit = document.getElementById('submit_btn');
 submit.onClick = function() { alert("you clicked me :-()") };
 /*     //make a request to the server and send the name
