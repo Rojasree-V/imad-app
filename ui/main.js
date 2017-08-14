@@ -70,6 +70,8 @@ submit.onClick = function() {
      for (i=0; i<name.length; i++ ) {
       lsit = '<li>' + names[i] + '</li>';
      }
+     var ul = document.getElementById("nameList");
+     ul.innerHtml = list;
  };
  
 
