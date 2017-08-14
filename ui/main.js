@@ -62,7 +62,8 @@ span.innerHTML = counter.toString();
 /* var nameInput = document.getElementById('name');
 var name = nameInput.value;   */
 var submit = document.getElementById('submit_btn');
-submit.onClick = function() { alert("you clicked me :-()") };
+submit.onClick = function() { var ul = document.getElementById('nameList');
+     ul.innerHTML = list; };
 /*     //make a request to the server and send the name
      //capture a list of names and render it as a list
      var names = ['name1','name2', 'name3', 'name4'];
