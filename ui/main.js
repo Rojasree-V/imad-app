@@ -59,12 +59,11 @@ span.innerHTML = counter.toString();
 
 
 //Submit Name
-/* var nameInput = document.getElementById('name');
-var name = nameInput.value;   */
+ var nameInput = document.getElementById('name');
+var name = nameInput.value;   
 var submit = document.getElementById('submit_btn');
-submit.onClick = function() { var ul = document.getElementById('nameList');
-     ul.innerHTML = list; };
-/*     //make a request to the server and send the name
+submit.onClick = function() {  
+     //make a request to the server and send the name
      //capture a list of names and render it as a list
      var names = ['name1','name2', 'name3', 'name4'];
      var list = '';
@@ -73,6 +72,6 @@ submit.onClick = function() { var ul = document.getElementById('nameList');
      }
      var ul = document.getElementById('nameList');
      ul.innerHTML = list;
- };  */
+ };  
  
 
