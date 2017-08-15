@@ -46,9 +46,11 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 var names = [];
-app.get("/submit-name/:name", function(req, res) {
+/*  app.get("/submit-name/:name", function(req, res) {  // here name is send in the URL itself
+    var name = req.params.name;   */
+app.get("/submit-name", function(req, res) {// URL has query string:  /submit-name?name=xxxx
    //Get the name from the request
-   var name = req.params.name;
+   var name = req.query.name;
    
    names.push(name);
    // JSON: Javascript Object Notation 
